@@ -81,6 +81,9 @@ nav{
 .main-menubar li a:hover{
     color: aquamarine;
 }
+.main-menubar .active{
+    color: aquamarine;
+}
 
 /************** Banner section **************/
 
