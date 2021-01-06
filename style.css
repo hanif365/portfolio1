@@ -136,7 +136,6 @@ nav{
 }
 #about-img{
     border-radius: 80px 5px 80px 5px;
-    /* border: 7px solid #FF4992 !important; */
     border: none;
 }
 .right-side h2{
@@ -144,6 +143,9 @@ nav{
 }
 .half-width p{
     margin: 15px 0;
+}
+.left-img img{
+    margin: 0px 0 0 0 !important;
 }
 
 /******************* Project Section *******************/
