@@ -204,7 +204,7 @@ nav{
 /******************* Contact Section *******************/
 
 #contact-section{
-    height: 550px;
+    height: 650px;
     background: url("images/bg-about.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -240,4 +240,35 @@ nav{
 .chat-me button{
     padding-top: 20px !important;
 }
+.social-connect{
+    text-align: center;
+    margin-top: 50px;
+}
+.social-connect p{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+/***************** Social Contact part**************** */
+.social-link{
+    padding-left: 550px;
+}
+.social-icon li{
+    float: left;
+    padding: 10px;
+    list-style: none;
+    display: block;
+    border: 1px solid rgb(26, 196, 226);
+    border-radius: 70px;
+    margin-right: 10px;
+    /* text-align: center; */
+    /* margin: auto; */
+}
+.social-icon li:hover{
+    background:rgb(66, 133, 233);
+    border-radius: 50px;
+    color: #fff;
+}
+
 
