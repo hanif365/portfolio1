@@ -133,3 +133,40 @@ nav{
 .half-width p{
     margin: 15px 0;
 }
+
+/******************* Project Section *******************/
+#project-section{
+    height: 550px;
+    padding: 70px 0 0px 0;
+}
+.project-content h2{
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+.project-content .project-doc{
+    width: 30%;
+    height: 550px;
+    float: left;
+    padding: 40px;
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: 20px;
+    opacity: 0.6;
+    box-shadow: 7px 8px 20px 0px rgba(41,37,37,0.62);
+    transition: all 500ms;
+}
+.project-content .project-doc:hover{
+    opacity: 1;
+}
+.text-colorful{
+    color: rgb(8, 242, 250);
+}
+.project-doc img{
+    width: 100%;
+}
+.project-text{
+    padding: 20px 0px;
+    
+}.project-text p{
+    padding: 15px 0;
+}
