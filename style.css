@@ -46,8 +46,13 @@ button:hover{
 
 /************* Main menubar Section ***********/
 header{
-    background-color: rgb(119, 11, 221);
-    overflow: hidden;
+    background-color: rgba(119, 11, 221,0.5);
+    /* margin: 0; */
+    /* padding: 0; */
+    top: 0;
+    width: 100%;
+    position: fixed;
+    /* overflow: hidden; */
 }
 .logo{
     position: absolute;
@@ -65,7 +70,7 @@ header{
     color: #fff;
 }
 .main-menubar{
-    list-style: none;
+    list-style-type: none;
 }
 nav{
     float: right;
@@ -209,8 +214,9 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 50px;
-    padding: 80px 0 100px 0;
+    padding: 80px 50px 100px 50px;
     position: relative;
+    /* z-index: -1; */
 }
 #contact-section h2{
     text-align: center;
@@ -252,23 +258,57 @@ nav{
 
 /***************** Social Contact part**************** */
 .social-link{
-    padding-left: 550px;
+    padding-left: 450px;
 }
 .social-icon li{
     float: left;
     padding: 10px;
     list-style: none;
     display: block;
-    border: 1px solid rgb(26, 196, 226);
+    border: 2px solid rgb(26, 196, 226);
     border-radius: 70px;
     margin-right: 10px;
     /* text-align: center; */
     /* margin: auto; */
 }
 .social-icon li:hover{
-    background:rgb(66, 133, 233);
+    background:rgba(138, 102, 172, 0.651);
     border-radius: 50px;
-    color: #fff;
+    /* color: #fff; */
 }
 
+/***************** Footer Section *****************/
 
+#footer-section{
+    background-color:  rgb(119, 11, 221);
+}
+.copyright{
+    padding: 20px ;
+}
+.copyright p{
+    color: #fff;
+    text-align: center;
+}
+.copyright a{
+    text-decoration: none;
+}
+.name-highlight{
+    color: rgb(248, 65, 9);
+    cursor: pointer;
+}
+
+/*********** Bootom To Top Button ************/
+
+.btt {
+    position: fixed;
+    bottom: 65px;
+    right: 20px;
+    background: #6c1191;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 500ms;
+}
+.btt:hover {
+    background: #45ec12;
+}
