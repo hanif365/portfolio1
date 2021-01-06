@@ -3,9 +3,13 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     /* font-family: 'Roboto', sans-serif; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* scroll-behavior: smooth; */
 }
 h1{
     font-size: 36px;
@@ -146,7 +150,7 @@ nav{
     text-align: center;
     padding: 0 0 50px 0;
 }
-.project-content .project-doc{
+.project-doc{
     width: 30%;
     height: 550px;
     float: left;
@@ -158,7 +162,7 @@ nav{
     box-shadow: 7px 8px 20px 0px rgba(41,37,37,0.62);
     transition: all 500ms;
 }
-.project-content .project-doc:hover{
+.project-doc:hover{
     opacity: 1;
 }
 .text-colorful{
@@ -170,6 +174,26 @@ nav{
 .project-text{
     padding: 20px 0px;
     
-}.project-text p{
+}
+.project-text p{
     padding: 15px 0;
+}
+
+/******************* Blog Section *******************/
+#blog-section{
+    height: 750px;
+    margin-top: 250px;
+    padding: 80px 0 0 0px;
+    background: url("images/bg-blog.png");
+    /* background-color: aquamarine; */
+}
+.blog-content h2{
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+.doc{
+    height: 500px !important;
+    border-radius: 50px 10px 50px 10px !important;
+    cursor: pointer;
 }
